@@ -1,0 +1,13 @@
+.banner{
+    background-color:green;
+    width:2000px;
+    height:200px;
+    margin-bottom:50px;
+
+}
+
+.banner-text{
+    top:50%;
+    left:50%;
+
+}
