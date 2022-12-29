@@ -2,7 +2,7 @@
 {% block content %}
 <div class="container-field">
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-12">
             <div class="banner">
                 <div class="banner-text">
                     <h1>TODO</h1>
@@ -13,8 +13,8 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
-             <form method="POST" class="p-3 shadow">
+        <div class="col-sm-6">
+             <form method="POST" class="mb-3 shadow">
                 {% csrf_token %}
                     <div class="form-group">
                         <input type="text" class="form-control" name="task" placeholder="Taskname">
@@ -33,7 +33,7 @@
 
 
         </div>
-        <div class="col-mb-6">
+        <div class="col-sm-6">
             <h4>Task to be completed</h4>
             {% for i in task1 %}
             <div class="shadow card">
